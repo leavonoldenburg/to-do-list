@@ -1,0 +1,16 @@
+<ul>
+  <li>
+    <h3>{{title}}</h3>
+
+    <form method='POST' action='/edit'>
+      <input type='hidden' name='id' value='{{id}}' />
+      <input name='item' placeholder='New name' />
+      <button type='submit'>Update</button>
+    </form>
+
+    <form method='POST' action='/delete'>
+      <input type='hidden' name='id' value='{{id}}' />
+      <button type='submit'>Delete {{title}}</button>
+    </form>
+  </li>
+</ul>

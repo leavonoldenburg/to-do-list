@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  background-color: beige;
+  padding: 2em;
+}
+
+// @mixin text-reset($optionalVariableToPass) {
+//color: inherit or $optionalVariableToPass,
+//font-family: sans-serif or $optionalVariableToPass
+//}
+// @include text-reset($optionalVariableToPass)
+
+//Setting variable in CSS
+// $grey-color: #1f1f1f
+// background-color: $grey-color
+
+@import 'form';
